@@ -1,6 +1,6 @@
 from src.data_processing import load_data, merge_data
 from src.qoe_calculation import apply_qoe_calculation
-from src.function_calling import respond_to_question
+from Lista_6.src.function_calling import respond_to_question
 
 def main():
     bitrate_data, rtt_data = load_data()
